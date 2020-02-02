@@ -19,5 +19,5 @@ def callback(bt_addr, rssi, packet, additional_info):
        initialize_data["voltage"] = packet.voltage
        
        client = connection.connect_to_message_broker() 
-       client.publish("eddystone/"+additional_info["namespace"]+"/"+bt_addr, json.dumps(initialize_data))       
+       client.publish("topic/gen", json.dumps(initialize_data))       
        client.disconnect()

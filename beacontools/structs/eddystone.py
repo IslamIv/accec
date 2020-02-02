@@ -12,6 +12,7 @@ from ..const import EDDYSTONE_UUID, EDDYSTONE_URL_SCHEMES, EDDYSTONE_TLM_UNENCRY
 from .estimote import EstimoteTelemetryFrame
 
 # pylint: disable=invalid-name
+print("eddystone.py")
 
 EddystoneUIDFrame = Struct(
     "tx_power" / Int8sl,
