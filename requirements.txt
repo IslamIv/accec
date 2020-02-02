@@ -1,0 +1,9 @@
+beacontools==1.3.1
+construct==2.9.45
+enum34==1.1.6
+pkg-resources==0.0.0
+PyBluez==0.22
+tcpbridge==1.1.1
+
+pip install paho-mqtt
+
