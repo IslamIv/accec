@@ -15,9 +15,7 @@ def parse_packet(packet):
     """Parse a beacon advertisement packet."""
     frame = parse_ltv_packet(packet)
     if frame is None:
-        print("frame ",frame)
         frame = parse_ibeacon_packet(packet)
-        print(frame)
     return frame
 
 def parse_ltv_packet(packet):
@@ -41,7 +39,6 @@ def parse_ltv_packet(packet):
 
 def parse_eddystone_service_data(data):
     """Parse Eddystone service data."""
-    print("parser ", data)
     if data['frame_type'] == EDDYSTONE_UID_FRAME:
         return EddystoneUIDFrame(data['frame'])
 

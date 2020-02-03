@@ -52,6 +52,7 @@ class EddystoneFilter(DeviceFilter):
     def __init__(self, namespace=None, instance=None):
         """Initialize filter."""
         super(EddystoneFilter, self).__init__()
+        print("FILTEREEEEEE><><><><><><><>")
         if namespace is None and instance is None:
             raise ValueError("EddystoneFilter needs at least one argument set")
         if namespace is not None:

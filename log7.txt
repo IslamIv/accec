@@ -1,0 +1,332 @@
+eddystone.py
+FILTEREEEEEE><><><><><><><>
+KJKJ
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 16399 Celsius, advertising count: 3761, seconds since boot: 8368>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneTLMFrame<voltage: 3561 mV, temperature: 29460 Celsius, advertising count: 51791753, seconds since boot: 198821610>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3132 mV, temperature: 20 Celsius, advertising count: 12180161, seconds since boot: 148571070>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 3546 mV, temperature: 28180 Celsius, advertising count: 47475128, seconds since boot: 198830750>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 3129 mV, temperature: 23 Celsius, advertising count: 34437842, seconds since boot: 148564830>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneTLMFrame<voltage: 3531 mV, temperature: 33300 Celsius, advertising count: 47651895, seconds since boot: 198831150>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 2526 mV, temperature: 32783 Celsius, advertising count: 548, seconds since boot: 1466>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneTLMFrame<voltage: 3561 mV, temperature: 29460 Celsius, advertising count: 51791767, seconds since boot: 198821650>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 3132 mV, temperature: 20 Celsius, advertising count: 12180171, seconds since boot: 148571110>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 2550 mV, temperature: 17 Celsius, advertising count: 2623, seconds since boot: 12506>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 16399 Celsius, advertising count: 3788, seconds since boot: 8428>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 2526 mV, temperature: 32783 Celsius, advertising count: 557, seconds since boot: 1490>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+None
+EddystoneTLMFrame<voltage: 3141 mV, temperature: 20 Celsius, advertising count: 33856557, seconds since boot: 148573640>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3129 mV, temperature: 23 Celsius, advertising count: 34437852, seconds since boot: 148564870>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneTLMFrame<voltage: 2538 mV, temperature: 49167 Celsius, advertising count: 566, seconds since boot: 1514>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneTLMFrame<voltage: 3561 mV, temperature: 29460 Celsius, advertising count: 51791782, seconds since boot: 198821690>
+EddystoneTLMFrame<voltage: 3132 mV, temperature: 20 Celsius, advertising count: 12180182, seconds since boot: 148571150>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 3546 mV, temperature: 28180 Celsius, advertising count: 47475157, seconds since boot: 198830840>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+None
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 16399 Celsius, advertising count: 3806, seconds since boot: 8468>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 2538 mV, temperature: 49167 Celsius, advertising count: 575, seconds since boot: 1538>
+EddystoneTLMFrame<voltage: 3129 mV, temperature: 23 Celsius, advertising count: 34437863, seconds since boot: 148564910>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 16399 Celsius, advertising count: 3815, seconds since boot: 8488>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3108 mV, temperature: 21 Celsius, advertising count: 18969126, seconds since boot: 138516060>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+None
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneTLMFrame<voltage: 3561 mV, temperature: 29460 Celsius, advertising count: 51791796, seconds since boot: 198821730>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3132 mV, temperature: 20 Celsius, advertising count: 12180192, seconds since boot: 148571190>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 16399 Celsius, advertising count: 3824, seconds since boot: 8508>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 2544 mV, temperature: 17 Celsius, advertising count: 2644, seconds since boot: 12606>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3540 mV, temperature: 33300 Celsius, advertising count: 47651938, seconds since boot: 198831270>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneTLMFrame<voltage: 2538 mV, temperature: 49167 Celsius, advertising count: 593, seconds since boot: 1586>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 15 Celsius, advertising count: 3833, seconds since boot: 8528>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 3108 mV, temperature: 21 Celsius, advertising count: 18969135, seconds since boot: 138516100>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 3135 mV, temperature: 20 Celsius, advertising count: 12180202, seconds since boot: 148571230>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 3546 mV, temperature: 28180 Celsius, advertising count: 47475186, seconds since boot: 198830920>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 2526 mV, temperature: 49167 Celsius, advertising count: 602, seconds since boot: 1610>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3129 mV, temperature: 23 Celsius, advertising count: 34437884, seconds since boot: 148564990>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneTLMFrame<voltage: 3540 mV, temperature: 33300 Celsius, advertising count: 47651952, seconds since boot: 198831310>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 15 Celsius, advertising count: 3851, seconds since boot: 8568>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneTLMFrame<voltage: 2526 mV, temperature: 49167 Celsius, advertising count: 611, seconds since boot: 1634>
+EddystoneTLMFrame<voltage: 3108 mV, temperature: 21 Celsius, advertising count: 18969143, seconds since boot: 138516140>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneTLMFrame<voltage: 3564 mV, temperature: 29460 Celsius, advertising count: 51791825, seconds since boot: 198821810>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneTLMFrame<voltage: 3135 mV, temperature: 20 Celsius, advertising count: 12180213, seconds since boot: 148571270>
+None
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneTLMFrame<voltage: 3546 mV, temperature: 28180 Celsius, advertising count: 47475200, seconds since boot: 198830960>
+EddystoneURLFrame<tx_power: -1, url: https://www.confidex.com/>
+EddystoneURLFrame<tx_power: -24, url: http://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneURLFrame<tx_power: -24, url: https://www.minewtech.com/>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000ca>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+None
+EddystoneTLMFrame<voltage: 2484 mV, temperature: 15 Celsius, advertising count: 3860, seconds since boot: 8588>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b2>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instance: 0000000000b3>
+EddystoneUIDFrame<tx_power: -40, namespace: 8b9cc73c3ae747ef65bc, instanc

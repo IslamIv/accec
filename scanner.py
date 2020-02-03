@@ -55,6 +55,7 @@ class BeaconScanner(object):
     def start(self):
         """Start beacon scanning."""
         self._mon.start()
+        print("KKKKKKK")
 
     def stop(self):
         """Stop beacon scanning."""
@@ -100,6 +101,7 @@ class Monitor(threading.Thread):
 
         while self.keep_going:
             pkt = self.socket.recv(255)
+            print("PKT>>>",pkt) 
             event = to_int(pkt[1])
             subevent = to_int(pkt[3])
             if event == LE_META_EVENT and subevent == EVT_LE_ADVERTISING_REPORT:
@@ -165,12 +167,14 @@ class Monitor(threading.Thread):
 
         # check if this could be a valid packet before parsing
         # this reduces the CPU load significantly
-        if not ( \
-            ((self.mode & ScannerMode.MODE_IBEACON) and (pkt[19:23] == b"\x4c\x00\x02\x15")) or \
-            ((self.mode & ScannerMode.MODE_EDDYSTONE) and (pkt[19:21] == b"\xaa\xfe")) or \
-            ((self.mode & ScannerMode.MODE_ESTIMOTE) and (pkt[19:21] == b"\x9a\xfe"))):
-            return
-        print(">>>>>>>>>>>>>>>>>>>pkkk",pkt[14:-1])
+        #if not ( \
+        #    ((self.mode & ScannerMode.MODE_IBEACON) and (pkt[19:23] == b"\x4c\x00\x02\x15")) or \
+        #    ((self.mode & ScannerMode.MODE_EDDYSTONE) and (pkt[19:21] == b"\xaa\xfe")) or \
+        #    ((self.mode & ScannerMode.MODE_ESTIMOTE) and (pkt[19:21] == b"\x9a\xfe"))):
+        #    return
+        print("HERE")
+        print("PKT>><>><<>>",pkt)
+        #print(">>>pkkk",pkt[14:-1])
         bt_addr = bt_addr_to_string(pkt[7:13])
         rssi = bin_to_int(pkt[-1])
         # strip bluetooth address and parse packet
