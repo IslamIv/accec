@@ -1,0 +1,2407 @@
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+Still running...
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h43flag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h3Dflag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h3Dflag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [61], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Fflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b633ACF6B345Atype=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h5Dflag=h0d=b02010203039FFE17169FFE000000000000000000000000000000000000000009FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [93]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [93], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [93], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Bflag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Eflag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Btype=h1rssi=h40flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000B18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [64]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [64], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [64], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x0b\x18\xa2?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h49flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [73], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h4Bflag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [75]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [75], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [75], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h21flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [33]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [33], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [33], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h49flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h51flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h3Bflag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164149C32F5A8D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [59], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x9c2\xf5\xa8\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h5Bflag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h48flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h37flag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [55]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [55], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [55], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h61flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h4Bflag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [75], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE0F16AAFE10FF01636F6E666964657800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x0f\x16\xaa\xfe\x10\xff\x01confidex\x00'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h5Aflag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [90], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [90], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h25flag=hFFFFFFFCd=b0201060303AAFE1116AAFE200009B40F0000000B99000019CE
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [37], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x11\x16\xaa\xfe \x00\t\xb4\x0f\x00\x00\x00\x0b\x99\x00\x00\x19\xce'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h62flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [98], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [58], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h42flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h4Bflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Fflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h41flag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8006D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x00minewtech\x00'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h35flag=h0d=b02011A0303BEFE0AFF010A41005925763066020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [53], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h41flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h36flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Eflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h54flag=hFFFFFFFCd=b0201060303AAFE1116AAFE20000C5714000204647508DA2048
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [84]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [84], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [84], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x11\x16\xaa\xfe \x00\x0cW\x14\x00\x02\x04du\x08\xda H'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h60flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [96], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Eflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h42flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h65flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [101]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [101], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [101], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21810type=h1rssi=h42flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264001018A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x10\x18\xa2?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Atype=h1rssi=h49flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000A18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [73], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\n\x18\xa2?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h60flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h39flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [57]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [57], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h60flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21808type=h1rssi=h35flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000818A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [53], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [53], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x08\x18\xa2?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h64flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [100]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [100], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [100], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21809type=h1rssi=h43flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000918A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\t\x18\xa2?#\xac'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h61flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+Still running...
+LINE from ParseResp>>> rsp=$scanaddr=b721C958DF8FDtype=h2rssi=h65flag=h0d=b02011A020A0C0AFF4C0010051318924DA6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [101]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [101], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [101], 'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18\x92M\xa6'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$statstate=$discmtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+RESP>>> {'sec': ['low'], 'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h44flag=hFFFFFFFCd=b0201060303E1FF1216E1FFA108644D98523F23AC504C55533039
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [68], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x12\x16\xe1\xff\xa1\x08dM\x98R?#\xacPLUS09'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h25flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B20000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [37], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb2\x00\x00'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h39flag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [57]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [57], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [57], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h41flag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h20flag=hFFFFFFFCd=b0201060303AAFE0F16AAFE10FF01636F6E666964657800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [32], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x0f\x16\xaa\xfe\x10\xff\x01confidex\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h5Fflag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b633ACF6B345Atype=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'c:\xcfk4Z'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h47flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [71]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [71], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [71], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [68], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h63flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [99], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [99], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h3Dflag=h0d=b02011A0303BEFE0AFF010A41005925763066
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h59flag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h59flag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h43flag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h49flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Fflag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h65flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [101]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [101], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [101], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h5Aflag=hFFFFFFFCd=b03039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [90], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [90], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h52flag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [82]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [82], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [82], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h36flag=hFFFFFFFCd=b0201060303AAFE1116AAFE20000DE614870315F2420BD8D9F6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [54], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x11\x16\xaa\xfe \x00\r\xe6\x14\x87\x03\x15\xf2B\x0b\xd8\xd9\xf6'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h3Dflag=hFFFFFFFCd=b0201060303AAFE1116AAFE20000C1B15000121406D0840A8F0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x11\x16\xaa\xfe \x00\x0c\x1b\x15\x00\x01!@m\x08@\xa8\xf0'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h54flag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [84]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [84], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [84], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h61flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h58flag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [88]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [88], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [88], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h59flag=h0d=b02010203039FFE17169FFE000000000000000000000000000000000000000009FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h42flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164148233BDA7D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x823\xbd\xa7\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h48flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h38flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h51flag=hFFFFFFFCd=b09FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h44flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h4Bflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [75], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h62flag=hFFFFFFFCd=b0201060303AAFE1516AAFE00E800112233445566778899000000000005
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [98], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [98], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x15\x16\xaa\xfe\x00\xe8\x00\x11"3DUfw\x88\x99\x00\x00\x00\x00\x00\x05'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h3Dflag=hFFFFFFFCd=b020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Fflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Dflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [93], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Eflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b62A1D15BB9DDtype=h2rssi=h61flag=h0d=b02011A0AFF4C00100513186D8F22
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'b\xa1\xd1[\xb9\xdd'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18m\x8f"'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b09FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h57flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [87]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [87], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b721C958DF8FDtype=h2rssi=h63flag=h0d=b02011A020A0C0AFF4C0010051318924DA6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [99], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [99], 'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18\x92M\xa6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h63flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [99], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h38flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Atype=h1rssi=h45flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000A18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\n\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21808type=h1rssi=h3Aflag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000818A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [58], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x08\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h60flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h62flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21809type=h1rssi=h43flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000918A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\t\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h42flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+Still running...
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h60flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Btype=h1rssi=h41flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000B18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x0b\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$statstate=$discmtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+RESP>>> {'sec': ['low'], 'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h38flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Eflag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h51flag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [81], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h25flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B20000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [37], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb2\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h45flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [69], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Fflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h4Aflag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [74]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [74], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [74], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h3Cflag=h0d=b0201060303F1FF1716E2C56DB5DFFB48D2B060D0F5A71096E000000000C564
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [60]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [60], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [60], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x03\x03\xf1\xff\x17\x16\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5d'], 'flag': [0]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h37flag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [55]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [55], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [55], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h48flag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [72], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h45flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h3Bflag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8006D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [59], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x00minewtech\x00'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h35flag=h0d=b02011A0303BEFE0AFF010A41005925763066020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [53], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h59flag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h59flag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h36flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA101641487333D9ED1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [54], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x873=\x9e\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h51flag=hFFFFFFFCd=b03039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [81], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h60flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h61flag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h5Fflag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [95], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE0F16AAFE10FF01636F6E666964657800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x0f\x16\xaa\xfe\x10\xff\x01confidex\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h3Dflag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h42flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h4Cflag=h0d=b02010203039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [76]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [76], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [76], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h59flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Bflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h5Bflag=hFFFFFFFCd=b09FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h44flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h61flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h5Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [90], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h41flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h41flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h57flag=hFFFFFFFCd=b09FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [87]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [87], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [87], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Eflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [94], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h61flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21810type=h1rssi=h42flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264001018A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x10\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h63flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [99], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Dflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [93], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b20D34AFDFF9Dtype=h2rssi=h62flag=hFFFFFFFCd=b1EFF0600010920028B9E088363EE1285451CC79DB31D6E585D89D601AE574C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b' \xd3J\xfd\xff\x9d']}
+RESP>>> {'rsp': ['scan'], 'addr': [b' \xd3J\xfd\xff\x9d'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b' \xd3J\xfd\xff\x9d'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b' \xd3J\xfd\xff\x9d'], 'type': [2], 'rssi': [98], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [98], 'rsp': ['scan'], 'addr': [b' \xd3J\xfd\xff\x9d'], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\x8b\x9e\x08\x83c\xee\x12\x85E\x1c\xc7\x9d\xb3\x1dnX]\x89\xd6\x01\xaeWL'], 'flag': [4294967292]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Atype=h1rssi=h45flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000A18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\n\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Cflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [92]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [92], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [92], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21808type=h1rssi=h3Aflag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000818A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [58], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x08\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Dflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [93], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21809type=h1rssi=h43flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000918A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\t\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5EC6D89DD90Atype=h2rssi=h63flag=h0d=b02011A1AFF4C000C0E0029CB913A4438421FCBEF7BF2C010055B1C5177DF
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'^\xc6\xd8\x9d\xd9\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'^\xc6\xd8\x9d\xd9\n'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'^\xc6\xd8\x9d\xd9\n'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'^\xc6\xd8\x9d\xd9\n'], 'type': [2], 'rssi': [99], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [99], 'rsp': ['scan'], 'addr': [b'^\xc6\xd8\x9d\xd9\n'], 'd': [b'\x02\x01\x1a\x1a\xffL\x00\x0c\x0e\x00)\xcb\x91:D8B\x1f\xcb\xef{\xf2\xc0\x10\x05[\x1cQw\xdf'], 'flag': [0]}
+Discovered device
+Still running...
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Eflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Btype=h1rssi=h41flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000B18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x0b\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h55flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [85]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [85], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Eflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$statstate=$discmtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+RESP>>> {'sec': ['low'], 'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h4Aflag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [74]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [74], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [74], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h60flag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h62flag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [98], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [98], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h41flag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h45flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Aflag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [90], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [90], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h4Cflag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [76]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [76], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [76], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h20flag=hFFFFFFFCd=b0201060303AAFE0F16AAFE10FF01636F6E666964657800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [32], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x0f\x16\xaa\xfe\x10\xff\x01confidex\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h26flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B20000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [38]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [38], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [38], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb2\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h59flag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h57flag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [87]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [87], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [87], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h3Eflag=h0d=b02011A0303BEFE0AFF010A41005925763066020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [62]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [62], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [62], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Fflag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h3Dflag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h52flag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [82]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [82], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [82], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [68], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h50flag=h0d=b02010203039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [80]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [80], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [80], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h48flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h5Fflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [95], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h59flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [89], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [89], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h38flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h3Dflag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164148233B8A7D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [58], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x823\xb8\xa7\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Fflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h45flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [69], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Dflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [93], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [93], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h41flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h38flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h4Cflag=hFFFFFFFCd=b09FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [76]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [76], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [76], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h62flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [98], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h42flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h61flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [90], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21810type=h1rssi=h41flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264001018A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x10\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h61flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h62flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [98], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h62flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [98], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [98], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Atype=h1rssi=h49flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000A18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [73], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\n\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h61flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+Still running...
+LINE from ParseResp>>> rsp=$scanaddr=b721C958DF8FDtype=h2rssi=h63flag=h0d=b02011A020A0C0AFF4C0010051318924DA6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [99]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'type': [2], 'rssi': [99], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [99], 'rsp': ['scan'], 'addr': [b'r\x1c\x95\x8d\xf8\xfd'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18\x92M\xa6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Btype=h1rssi=h40flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000B18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [64]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [64], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [64], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x0b\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h64flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [100]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [100], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [100], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$statstate=$discmtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+RESP>>> {'sec': ['low'], 'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h38flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h43flag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h58flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [88]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [88], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [88], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h5Bflag=h0d=b02010203039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h3Dflag=h0d=b02011A0303BEFE0AFF010A41005925763066
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h25flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B20000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [37], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [37], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb2\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h39flag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [57]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [57], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [57], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h5Aflag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [90], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [90], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h3Dflag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h51flag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [81], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164148233B8A7D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [58], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x823\xb8\xa7\xd1\xa1?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h5Fflag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h45flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h20flag=hFFFFFFFCd=b0201060303AAFE1116AAFE200009F010400000203B0000998E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [32], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [32], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x11\x16\xaa\xfe \x00\t\xf0\x10@\x00\x00 ;\x00\x00\x99\x8e'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [68], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h51flag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [81]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [81], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [81], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Bflag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h55flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E00001000AC5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [85]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [85], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [85], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x01\x00\n\xc5'], 'flag': [0]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h50flag=hFFFFFFFCd=b09FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [80]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [80], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [80], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h61flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h5Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [90]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [90], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h54flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [84]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [84], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h60flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [96], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h36flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA101641487333D9ED1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [54], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x873=\x9e\xd1\xa1?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h3Aflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [58], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h41flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164149C32FDA8D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x9c2\xfd\xa8\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b6065D857D55Dtype=h2rssi=h61flag=h0d=b02011A0AFF4C001005031855D550
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'`e\xd8W\xd5]'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18U\xd5P'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h5Fflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [95], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Fflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h5Cflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [92]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [92], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h5Fflag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b44A409E27534type=h2rssi=h66flag=h0d=b02011A020A0C0BFF4C001006031E4DDC544B
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'D\xa4\t\xe2u4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'D\xa4\t\xe2u4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'D\xa4\t\xe2u4'], 'type': [2], 'rssi': [102]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'D\xa4\t\xe2u4'], 'type': [2], 'rssi': [102], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [102], 'rsp': ['scan'], 'addr': [b'D\xa4\t\xe2u4'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1eM\xdcTK'], 'flag': [0]}
+Discovered device
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h62flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [98]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [98], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [98], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h3Dflag=h0d=b0201060303F1FF1716E2C56DB5DFFB48D2B060D0F5A71096E000000000C564
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [61], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [61], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x03\x03\xf1\xff\x17\x16\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h35flag=hFFFFFFFCd=b020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [53], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4AC30B10D69Ftype=h2rssi=h5Eflag=h0d=b02011A020A180AFF4C0010050198B5E79F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b'J\xc3\x0b\x10\xd6\x9f'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x98\xb5\xe7\x9f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h3Bflag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21810type=h1rssi=h42flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264001018A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x10'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x10\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h41flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h60flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [96], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Atype=h1rssi=h45flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000A18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'type': [1], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\n'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\n\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21808type=h1rssi=h4Dflag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000818A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [77]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'type': [1], 'rssi': [77], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [77], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x08'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x08\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA21809type=h1rssi=h43flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000918A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'type': [1], 'rssi': [67], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [67], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\t'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\t\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F529849type=h1rssi=h54flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [84]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98I'], 'type': [1], 'rssi': [84], 'flag': [4294967292]}
+Still running...
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA2180Btype=h1rssi=h41flag=hFFFFFFFCd=b0201060303E1FF0D16E1FFA10264000B18A23F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x18\x0b'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\r\x16\xe1\xff\xa1\x02d\x00\x0b\x18\xa2?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$statstate=$discmtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc']}
+RESP>>> {'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+RESP>>> {'sec': ['low'], 'rsp': ['stat'], 'state': ['disc'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$mgmtcode=$success
+
+RESP>>> {'rsp': ['mgmt']}
+RESP>>> {'rsp': ['mgmt'], 'code': ['success']}
+LINE from ParseResp>>> rsp=$statstate=$scandst='(null)mtu=h0sec='low
+
+RESP>>> {'rsp': ['stat']}
+RESP>>> {'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan']}
+RESP>>> {'dst': ['(null)'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+RESP>>> {'dst': ['(null)'], 'sec': ['low'], 'rsp': ['stat'], 'state': ['scan'], 'mtu': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b90DD5D8CC0BAtype=h1rssi=h4Aflag=h0d=b02011A020A0C0AFF4C0010050114DB42B6
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [74]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'type': [1], 'rssi': [74], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [74], 'rsp': ['scan'], 'addr': [b'\x90\xdd]\x8c\xc0\xba'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xdbB\xb6'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=h0d=b02011A020A0C0AFF4C0010050114EF2F4F
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [68], 'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x14\xef/O'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h5Bflag=h0d=b02011A0AFF4C0010050318C5AE88
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x03\x18\xc5\xae\x88'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h3Eflag=h0d=b02011A0303BEFE0AFF010A41005925763066
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [62]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [62], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [62], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\x01\x1a\x03\x03\xbe\xfe\n\xff\x01\nA\x00Y%v0f'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b69FC2687445Btype=h2rssi=h41flag=hFFFFFFFCd=b1EFF060001092002F1DCC09271F2B37713BD5937D22921C8BE03925A367235
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D[']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'type': [2], 'rssi': [65], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [65], 'rsp': ['scan'], 'addr': [b'i\xfc&\x87D['], 'd': [b'\x1e\xff\x06\x00\x01\t \x02\xf1\xdc\xc0\x92q\xf2\xb3w\x13\xbdY7\xd2)!\xc8\xbe\x03\x92Z6r5'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7727C32ECA45type=h2rssi=h61flag=h0d=b02011A020A0C0AFF4C0010051318724094
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b"w'\xc3.\xcaE"], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x13\x18r@\x94'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h3Bflag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164149C32FDA8D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [59], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [59], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x9c2\xfd\xa8\xd1\xa1?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bED60F660BEE4type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE0F16AAFE10FF01636F6E666964657800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xed`\xf6`\xbe\xe4'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x0f\x16\xaa\xfe\x10\xff\x01confidex\x00'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h38flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164148733409ED1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [56], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x873@\x9e\xd1\xa1?#\xac'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b45CD01CF9852type=h2rssi=h5Cflag=h0d=b02011A020A0C0AFF4C001005031C8A2C1D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [92]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'type': [2], 'rssi': [92], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [92], 'rsp': ['scan'], 'addr': [b'E\xcd\x01\xcf\x98R'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x03\x1c\x8a,\x1d'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bCBC0ECDD58A6type=h2rssi=h27flag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B20000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'\xcb\xc0\xec\xddX\xa6'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb2\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b1E2FB4DD573Btype=h2rssi=h49flag=hFFFFFFFCd=b02011B0BFF4C000906031CC0A80729
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'type': [2], 'rssi': [73], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [73], 'rsp': ['scan'], 'addr': [b'\x1e/\xb4\xddW;'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03\x1c\xc0\xa8\x07)'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b7911C546771Ctype=h2rssi=h5Bflag=h0d=b02010203039FFE17169FFE000000000000000000000000000000000000000009FFE0000714CA00B84E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'type': [2], 'rssi': [91], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [91], 'rsp': ['scan'], 'addr': [b'y\x11\xc5Fw\x1c'], 'd': [b'\x02\x01\x02\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07\x14\xca\x00\xb8N'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bEA1C5EDAC188type=h2rssi=h1Fflag=hFFFFFFFCd=b0201060303AAFE1716AAFE00D88B9CC73C3AE747EF65BC0000000000B30000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'type': [2], 'rssi': [31], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [31], 'rsp': ['scan'], 'addr': [b'\xea\x1c^\xda\xc1\x88'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x17\x16\xaa\xfe\x00\xd8\x8b\x9c\xc7<:\xe7G\xefe\xbc\x00\x00\x00\x00\x00\xb3\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Atype=h1rssi=h38flag=hFFFFFFFCd=b0201060303AAFE1016AAFE10E8016D696E65777465636800
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'type': [1], 'rssi': [56], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [56], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98J'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x10\x16\xaa\xfe\x10\xe8\x01minewtech\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b1FB3F9BBDA59type=h2rssi=h54flag=hFFFFFFFCd=b02011B0BFF4C0009060322C0A80065
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [84]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'type': [2], 'rssi': [84], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [84], 'rsp': ['scan'], 'addr': [b'\x1f\xb3\xf9\xbb\xdaY'], 'd': [b'\x02\x01\x1b\x0b\xffL\x00\t\x06\x03"\xc0\xa8\x00e'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b41219FCDCE81type=h2rssi=h27flag=hFFFFFFFCd=b03039FFE17169FFE000000000000000000000000000000000000000009FFE000076FCA571B13
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'type': [2], 'rssi': [39], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [39], 'rsp': ['scan'], 'addr': [b'A!\x9f\xcd\xce\x81'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xff\xe0\x00\x07o\xcaW\x1b\x13'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E9DF7ED2110type=h2rssi=h60flag=h0d=b02011A020A0C0AFF4C0010050118EDA701
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'type': [2], 'rssi': [96], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [96], 'rsp': ['scan'], 'addr': [b'n\x9d\xf7\xed!\x10'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x01\x18\xed\xa7\x01'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b55AE96EE7B69type=h2rssi=h59flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'U\xae\x96\xee{i'], 'type': [2], 'rssi': [89], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b5827358E1214type=h2rssi=h66flag=h0d=b02011A020A070BFF4C001006331EF0AED85E
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [102]}
+RESP>>> {'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'type': [2], 'rssi': [102], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [102], 'rsp': ['scan'], 'addr': [b"X'5\x8e\x12\x14"], 'd': [b'\x02\x01\x1a\x02\n\x07\x0b\xffL\x00\x10\x063\x1e\xf0\xae\xd8^'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA216ACtype=h1rssi=h42flag=h0d=b0201061AFF4C000215E2C56DB5DFFB48D2B060D0F5A71096E000000000C5
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'type': [1], 'rssi': [66], 'flag': [0]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa2\x16\xac'], 'd': [b'\x02\x01\x06\x1a\xffL\x00\x02\x15\xe2\xc5m\xb5\xdf\xfbH\xd2\xb0`\xd0\xf5\xa7\x10\x96\xe0\x00\x00\x00\x00\xc5'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D19Etype=h1rssi=h36flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\x9e'], 'type': [1], 'rssi': [54], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6E5FB5F58735type=h2rssi=h61flag=h0d=b02011A0AFF4C0010051318491DB0
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'type': [2], 'rssi': [97], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'n_\xb5\xf5\x875'], 'd': [b'\x02\x01\x1a\n\xffL\x00\x10\x05\x13\x18I\x1d\xb0'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h45flag=hFFFFFFFCd=b0201060303AAFE1516AAFE00E800112233445566778899000000000009
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [69]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [69], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [69], 'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'd': [b'\x02\x01\x06\x03\x03\xaa\xfe\x15\x16\xaa\xfe\x00\xe8\x00\x11"3DUfw\x88\x99\x00\x00\x00\x00\x00\t'], 'flag': [4294967292]}
+Received new data from
+LINE from ParseResp>>> rsp=$scanaddr=b5CF696F3BADEtype=h2rssi=h5Eflag=h0d=b02011A020A180AFF4C0010050118A5C554
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'type': [2], 'rssi': [94], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [94], 'rsp': ['scan'], 'addr': [b'\\\xf6\x96\xf3\xba\xde'], 'd': [b'\x02\x01\x1a\x02\n\x18\n\xffL\x00\x10\x05\x01\x18\xa5\xc5T'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h48flag=h0d=b02011A020A0C0BFF4C001006031E908D8FA1
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [72], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [72], 'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'd': [b'\x02\x01\x1a\x02\n\x0c\x0b\xffL\x00\x10\x06\x03\x1e\x90\x8d\x8f\xa1'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233F52984Dtype=h1rssi=h44flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?R\x98M'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h61flag=hFFFFFFFCd=b03039FFE17169FFE0000000000000000000000000000000000000000
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [97]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [97], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [97], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\x03\x03\x9f\xfe\x17\x16\x9f\xfe\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h42flag=hFFFFFFFCd=b0201060303E1FF1016E1FFA10164148233B8A7D1A13F23AC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [66], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [66], 'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'd': [b'\x02\x01\x06\x03\x03\xe1\xff\x10\x16\xe1\xff\xa1\x01d\x14\x823\xb8\xa7\xd1\xa1?#\xac'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h5Fflag=h0d=b02011A020A0C0AFF4C0010051A1C56D102
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [95], 'flag': [0]}
+RESP>>> {'type': [2], 'rssi': [95], 'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'd': [b'\x02\x01\x1a\x02\n\x0c\n\xffL\x00\x10\x05\x1a\x1cV\xd1\x02'], 'flag': [0]}
+LINE from ParseResp>>> rsp=$scanaddr=b655B722B177Ftype=h2rssi=h43flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'e[r+\x17\x7f'], 'type': [2], 'rssi': [67], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A7type=h1rssi=h35flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa7'], 'type': [1], 'rssi': [53], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b503237B2B915type=h1rssi=h44flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'P27\xb2\xb9\x15'], 'type': [1], 'rssi': [68], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b2811A525C7F3type=h1rssi=h35flag=hFFFFFFFCd=b020A080F094C452D426F73652044616E69656C
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'type': [1], 'rssi': [53], 'flag': [4294967292]}
+RESP>>> {'type': [1], 'rssi': [53], 'rsp': ['scan'], 'addr': [b'(\x11\xa5%\xc7\xf3'], 'd': [b'\x02\n\x08\x0f\tLE-Bose Daniel'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b4B9799AA35FEtype=h2rssi=h58flag=hFFFFFFFCd=b09FFE0000718CA336F9D
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [88]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'type': [2], 'rssi': [88], 'flag': [4294967292]}
+RESP>>> {'type': [2], 'rssi': [88], 'rsp': ['scan'], 'addr': [b'K\x97\x99\xaa5\xfe'], 'd': [b'\t\xff\xe0\x00\x07\x18\xca3o\x9d'], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=b6CF4908D4C6Ctype=h2rssi=h60flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [96]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'l\xf4\x90\x8dLl'], 'type': [2], 'rssi': [96], 'flag': [4294967292]}
+LINE from ParseResp>>> rsp=$scanaddr=bAC233FA1D1A8type=h1rssi=h41flag=hFFFFFFFC
+
+RESP>>> {'rsp': ['scan']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8']}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65]}
+RESP>>> {'rsp': ['scan'], 'addr': [b'\xac#?\xa1\xd1\xa8'], 'type': [1], 'rssi': [65], 'flag': [4294967292]}
