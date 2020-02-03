@@ -1,0 +1,120 @@
+[31mScanning for devices...[0m
+    Device (new): [37m74:3b:0d:c7:9d:db[0m (random), -92 dBm 
+	Flags: <02>
+	Complete 16b Services: <0000fe9f-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <9ffe0000000000000000000000000000000000000000>
+	Manufacturer: <e0000714ca00b84e>
+    Device (new): [37m77:27:c3:2e:ca:45[0m (random), -96 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c0010051318724094>
+    Device (new): [37m6e:9d:f7:ed:21:10[0m (random), -97 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c0010050118eda701>
+    Device (new): [37mac:23:3f:a2:16:ac[0m (public), -61 dBm 
+	Flags: <06>
+	Manufacturer: <4c000215e2c56db5dffb48d2b060d0f5a71096e000000000c5>
+    Device (new): [37m65:5b:72:2b:17:7f[0m (random), -76 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c001006031e908d8fa5>
+    Device (new): [37m7c:77:29:b1:8e:8f[0m (random), -39 dBm (not connectable)
+	Complete 16b Services: <0000fe9f-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <9ffe0000000000000000000000000000000000000000>
+	Manufacturer: <e000076fca571b13>
+    Device (new): [37m55:ae:96:ee:7b:69[0m (random), -96 dBm 
+	Flags: <1a>
+	Manufacturer: <4c0010050318c5ae88>
+    Device (new): [37m90:dd:5d:8c:c0:ba[0m (public), -75 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c0010050114db42b6>
+    Device (new): [37mac:23:3f:a1:d1:a8[0m (public), -59 dBm 
+	Flags: <06>
+	Complete 16b Services: <0000fff1-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <e2c56db5dffb48d2b060d0f5a71096e000000000c564>
+    Device (new): [37m1e:2f:b4:dd:57:3b[0m (random), -69 dBm (not connectable)
+	Flags: <1b>
+	Manufacturer: <4c000906031cc0a80729>
+    Device (new): [37m7c:27:fe:ae:10:9c[0m (random), -97 dBm 
+	Flags: <1a>
+	Manufacturer: <4c001005131883a7e5>
+    Device (new): [37mac:23:3f:a1:d1:9e[0m (public), -53 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000feaa-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <aafe00e800112233445566778899abcde0c7006c>
+    Device (new): [37m41:84:aa:e3:8d:ac[0m (random), -55 dBm (not connectable)
+	Manufacturer: <0600010920022bc4e613e1bac3b8edbce6631ab62bf9e1f8a07b2df319>
+    Device (new): [37mac:23:3f:a2:18:0a[0m (public), -69 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000ffe1-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <e1ffa10264000a18a23f23ac>
+    Device (new): [37mcb:c0:ec:dd:58:a6[0m (random), -39 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000feaa-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <aafe00d88b9cc73c3ae747ef65bc0000000000b20000>
+    Device (new): [37m45:cd:01:cf:98:52[0m (random), -89 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c001005031c8a2c1d>
+    Device (new): [37m1f:b3:f9:bb:da:59[0m (random), -84 dBm (not connectable)
+	Flags: <1b>
+	Manufacturer: <4c0009060322c0a80065>
+    Device (new): [37med:60:f6:60:be:e4[0m (random), -31 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000feaa-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <aafe00d88b9cc73c3ae747ef65bc0000000000ca0000>
+    Device (new): [37mac:23:3f:52:98:4d[0m (public), -67 dBm 
+	Flags: <06>
+	Manufacturer: <4c000215e2c56db5dffb48d2b060d0f5a71096e000000000c5>
+    Device (new): [37m50:32:37:b2:b9:15[0m (public), -69 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c0010050114ef2f4f>
+    Device (new): [37m72:81:58:bc:e8:fb[0m (random), -83 dBm (not connectable)
+	Complete 16b Services: <0000fe9f-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <9ffe0000000000000000000000000000000000000000>
+    Device (new): [37mac:23:3f:52:98:4a[0m (public), -57 dBm 
+	Flags: <06>
+	Manufacturer: <4c000215e2c56db5dffb48d2b060d0f5a71096e000000000c5>
+    Device (new): [37mea:1c:5e:da:c1:88[0m (random), -31 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000feaa-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <aafe00d88b9cc73c3ae747ef65bc0000000000b30000>
+    Device (new): [37m60:65:d8:57:d5:5d[0m (random), -97 dBm 
+	Flags: <1a>
+	Manufacturer: <4c001005031855d550>
+    Device (new): [37mac:23:3f:a1:d1:a7[0m (public), -53 dBm 
+	Flags: <06>
+	Manufacturer: <4c000215e2c56db5dffb48d2b060d0f5a71096e000000000c5>
+    Device (new): [37m28:11:a5:25:c7:f3[0m (public), -59 dBm 
+	Flags: <1a>
+	Tx Power: <08>
+	Complete 16b Services: <0000febe-0000-1000-8000-00805f9b34fb>
+	Complete Local Name: '[36mLE-Bose Daniel[0m'
+	Manufacturer: <010a4100a059257630>
+    Device (new): [37m72:6f:70:a3:e7:b2[0m (random), -87 dBm 
+	Flags: <1a>
+	Tx Power: <07>
+	Manufacturer: <4c001006331e62c52e63>
+    Device (new): [37mac:23:3f:52:98:49[0m (public), -97 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000feaa-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <aafe10e8016d696e65777465636800>
+    Device (update): [37m72:81:58:bc:e8:fb[0m (random), -83 dBm (not connectable)
+	Complete 16b Services: <0000fe9f-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <9ffe0000000000000000000000000000000000000000>
+	Manufacturer: <e0000718ca336f9d>
+    Device (new): [37m5c:f6:96:f3:ba:de[0m (random), -97 dBm 
+	Flags: <1a>
+	Tx Power: <18>
+	Manufacturer: <4c0010050118a5c554>
+    Device (new): [37m6c:f4:90:8d:4c:6c[0m (random), -99 dBm 
+	Flags: <1a>
+	Tx Power: <0c>
+	Manufacturer: <4c0010051a1c56d102>
+    Device (new): [37mac:23:3f:a2:18:09[0m (public), -67 dBm (not connectable)
+	Flags: <06>
+	Complete 16b Services: <0000ffe1-0000-1000-8000-00805f9b34fb>
+	16b Service Data: <e1ffa10264000918a23f23ac>
