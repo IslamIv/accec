@@ -163,7 +163,10 @@ class Monitor(threading.Thread):
 
     def process_packet(self, pkt):
         """Parse the packet and call callback if one of the filters matches."""
-        print("NEW!!!>>>", pkt)
+        #print("NEW!!!>>>", pkt)
+        bt_addr = bt_addr_to_string(pkt[7:13])
+        print("ADDRESS>>>", bt_addr)
+        print("Length>>>",len(pkt))
         # check if this could be a valid packet before parsing
         # this reduces the CPU load significantly
         if not ( \
@@ -172,12 +175,13 @@ class Monitor(threading.Thread):
             ((self.mode & ScannerMode.MODE_ESTIMOTE) and (pkt[19:21] == b"\x9a\xfe"))):
             return
         #print(">>>>>>>>>>>>>>>>>>>pkkk",pkt[14:-1])
-        bt_addr = bt_addr_to_string(pkt[7:13])
+        #bt_addr = bt_addr_to_string(pkt[7:13])
+        #print("bt_addr>>>", bt_addr)
         rssi = bin_to_int(pkt[-1])
         # strip bluetooth address and parse packet
-        print("Before Parsing>>>", pkt)
+        #print("Before Parsing>>>", pkt)
         packet = parse_packet(pkt[14:-1])
-        print("After Parsing>>>",packet)
+        #print("After Parsing>>>",packet)
         # return if packet was not an beacon advertisement
         if not packet:
             return
@@ -216,7 +220,7 @@ class Monitor(threading.Thread):
 
     def save_bt_addr(self, packet, bt_addr):
         """Add to the list of mappings."""
-        print("Mapping Function>>>", packet)
+        #print("Mapping Function>>>", packet)
         if isinstance(packet, EddystoneUIDFrame):
             # remove out old mapping
             new_mappings = [m for m in self.eddystone_mappings if m[0] != bt_addr]
@@ -225,7 +229,7 @@ class Monitor(threading.Thread):
 
     def get_properties(self, packet, bt_addr):
         """Get properties of beacon depending on type."""
-        print("Properties Function>>>",packet)
+        #print("Properties Function>>>",packet)
         if is_one_of(packet, [EddystoneTLMFrame, EddystoneURLFrame, \
                               EddystoneEncryptedTLMFrame, EddystoneEIDFrame]):
             # here we retrieve the namespace and instance which corresponds to the
