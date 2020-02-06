@@ -3,6 +3,7 @@ import threading
 import struct
 import logging
 from importlib import import_module
+import access
 
 from .parser import parse_packet
 from .utils import bt_addr_to_string
@@ -101,6 +102,8 @@ class Monitor(threading.Thread):
 
         while self.keep_going:
             pkt = self.socket.recv(255)
+            #pkt = self.socket.recv(1024)
+            #print("TST>>> ",pkt)
             event = to_int(pkt[1])
             subevent = to_int(pkt[3])
             if event == LE_META_EVENT and subevent == EVT_LE_ADVERTISING_REPORT:
@@ -165,9 +168,10 @@ class Monitor(threading.Thread):
         """Parse the packet and call callback if one of the filters matches."""
         bt_addr = bt_addr_to_string(pkt[7:13])
         if bt_addr == "d7:61:29:e3:42:db":
-            print("ADD>>>", bt_addr)
-            print("LEn>>>", len(pkt))
-            print("PKT>>>", pkt)
+            access.acceess(pkt)
+            #print("ADD>>>", bt_addr)
+            #print("LEn>>>", len(pkt))
+            #print("PKT>>>", pkt)
         #print("ADDRESS>>>", bt_addr)
         #print("Length>>>",len(pkt))
         # check if this could be a valid packet before parsing
