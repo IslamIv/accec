@@ -3,6 +3,7 @@ import array
 import htoi
 
 def acceess(packet):
+    acc = dict()
     #print("Packet>>> ", packet)
     #print(len(packet))
     #ex = "0201060303aafe1316aafe807720003c00c4ffdcfff0fb0cfc0300"
@@ -17,7 +18,7 @@ def acceess(packet):
         #print(hexi)
         Counter = hexi[52:54]
         Data = hexi[54:82]
-        print("Data>>>",Data)
+        #print("Data>>>",Data)
         #print(len(Data))
         Xmin = Data[2:4]+Data[0:2]
         Xmax = Data[6:8]+Data[4:6]
@@ -29,16 +30,37 @@ def acceess(packet):
         
         xmin = htoi.s16(int(Xmin,16))
         xmax = htoi.s16(int(Xmax,16))
-        
+        acc["xmin"] = xmin
+        acc["xmax"] = xmax
         ymin = htoi.s16(int(Ymin,16))
         ymax = htoi.s16(int(Ymax,16))
-        
+        acc["ymin"] = ymin
+        acc["ymax"] = ymax
         zmin = htoi.s16(int(Zmin,16))
         zmax = htoi.s16(int(Zmax,16))
+        acc["zmin"] = zmin
+        acc["zmax"] = zmax
         rms = htoi.s16(int(Rms,16))
-        print("Counter>>", Counter)
-        print("Xmin>>", xmin," --- Xmax>>", xmax)
-        print("Ymin>>", ymin," --- Ymax>>", ymax)
-        print("Zmin>>", zmin," --- Zmax>>", zmax)
-        print("RMS>>", rms)
-        print("=================================")
+        acc["rms"] = rms
+        #print("Counter>>", Counter)
+        #print("Xmin>>", xmin," --- Xmax>>", xmax)
+        #print("Ymin>>", ymin," --- Ymax>>", ymax)
+        #print("Zmin>>", zmin," --- Zmax>>", zmax)
+        #print("RMS>>", rms)
+        #print("=================================")
+        print(acc)
+        print("**************************")
+        return acc
+    else:
+        return acceess_init()
+
+def acceess_init():
+    ad = dict()
+    ad["xmin"] = ""
+    ad["xmax"] = ""
+    ad["ymin"] = ""
+    ad["ymax"] = ""
+    ad["zmin"] = ""
+    ad["zmax"] = ""
+    ad["rms"] = ""
+    return ad

@@ -8,7 +8,7 @@ def connect_to_message_broker():
 
 	    client.username_pw_set("hjzjzxtj", "JZVpPmykkAsQ")
 
-	    client.connect("soldier.cloudmqtt.com", 10982, 60)
+	    client.connect("alien.cloudmqtt.com", 10982, 60)
 
 	    return client
 	return None    
