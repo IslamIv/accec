@@ -1,11 +1,14 @@
 import json
 import copy
 from datetime import datetime
+import os
 
 import connection
 from utility import getHwAddr
-
-def callback(bt_addr, rssi, packet, acc_data, additional_info):
+script_dir = os.path.dirname(__file__)
+print("DIR>>>", script_dir)
+path = script_dir+"/beacontools/confidix.txt"
+def callback(bt_addr, rssi, packet, additional_info):
     #print("<%s, %d> %s %s" % (bt_addr, rssi, packet, additional_info))
     if hasattr(packet, 'voltage'):
        initialize_data = copy.deepcopy(connection.settings.EDISTONE_FORMAT)
@@ -17,6 +20,7 @@ def callback(bt_addr, rssi, packet, acc_data, additional_info):
        initialize_data["rssi"] = rssi
        initialize_data["temperature"] = packet.temperature_fixed_point
        initialize_data["voltage"] = packet.voltage
+       acc_data = json.load(open(path))
        initialize_data["X_min"] =acc_data["xmin"]
        initialize_data["X_max"] =acc_data["xmax"]
        initialize_data["Y_min"] =acc_data["ymin"]

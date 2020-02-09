@@ -1,6 +1,7 @@
 from binascii import hexlify
 import array
 import htoi
+import json
 
 def acceess(packet):
     acc = dict()
@@ -48,19 +49,10 @@ def acceess(packet):
         #print("Zmin>>", zmin," --- Zmax>>", zmax)
         #print("RMS>>", rms)
         #print("=================================")
-        print(acc)
         print("**************************")
-        return acc
+        json.dump(acc, open("confidix.txt",'w'))
+        return 0
     else:
-        return acceess_init()
-
-def acceess_init():
-    ad = dict()
-    ad["xmin"] = ""
-    ad["xmax"] = ""
-    ad["ymin"] = ""
-    ad["ymax"] = ""
-    ad["zmin"] = ""
-    ad["zmax"] = ""
-    ad["rms"] = ""
-    return ad
+        #print("xxxxxxxxxxxxxxxxxxxxxxxxxx")
+        acc = dict()
+        return acc

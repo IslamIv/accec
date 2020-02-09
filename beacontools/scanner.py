@@ -167,7 +167,8 @@ class Monitor(threading.Thread):
     def process_packet(self, pkt):
         """Parse the packet and call callback if one of the filters matches."""
         bt_addr = bt_addr_to_string(pkt[7:13])
-        acc_data = access.acceess(pkt)
+        access.acceess(pkt)
+        #print("WMWMWMWMWMWMWMWMWMWM")
         #print(">>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<")
         #print("acc_data>>>>>>>", acc_data)
         #print(acc_data)
@@ -201,15 +202,14 @@ class Monitor(threading.Thread):
         # properties holds the identifying information for a beacon
         # e.g. instance and namespace for eddystone; uuid, major, minor for iBeacon
         properties = self.get_properties(packet, bt_addr)
-
         if self.device_filter is None and self.packet_filter is None:
             # no filters selected
-            self.callback(bt_addr, rssi, packet,acc_data, properties)
+            self.callback(bt_addr, rssi, packet, properties)
 
         elif self.device_filter is None:
             # filter by packet type
             if is_one_of(packet, self.packet_filter):
-                self.callback(bt_addr, rssi, packet, acc_data, properties)
+                self.callback(bt_addr, rssi, packet, properties)
         else:
             # filter by device and packet type
             if self.packet_filter and not is_one_of(packet, self.packet_filter):
@@ -220,11 +220,11 @@ class Monitor(threading.Thread):
             for filtr in self.device_filter:
                 if isinstance(filtr, BtAddrFilter):
                     if filtr.matches({'bt_addr':bt_addr}):
-                        self.callback(bt_addr, rssi, packet,acc_data, properties)
+                        self.callback(bt_addr, rssi, packet, properties)
                         return
 
                 elif filtr.matches(properties):
-                    self.callback(bt_addr, rssi, packet,acc_data, properties)
+                    self.callback(bt_addr, rssi, packet, properties)
                     return
 
     def save_bt_addr(self, packet, bt_addr):

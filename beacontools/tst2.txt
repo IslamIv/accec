@@ -1,0 +1,41 @@
+eddystone.py
+('DIR>>>', '/home/flexvertical/accec/accec')
+FILTEREEEEEE><><><><><><><>
+KJKJ
+{"timestamp": "2020-02-09 03:02-1581238889", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -41, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2490, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -8, "Y_min": -68, "Y_max": 20, "Z_min": 912, "Z_max": 1036, "RMS": 38}
+{"timestamp": "2020-02-09 03:02-1581238889", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ed:60:f6:60:be:e4", "rssi": -51, "battery": "", "temperature": 128.0703125, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -8, "Y_min": -68, "Y_max": 20, "Z_min": 912, "Z_max": 1036, "RMS": 38}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238890", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2532, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -156, "X_max": -16, "Y_min": -64, "Y_max": 20, "Z_min": 928, "Z_max": 1048, "RMS": 37}
+{"timestamp": "2020-02-09 03:02-1581238891", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -44, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2490, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -156, "X_max": -16, "Y_min": -64, "Y_max": 20, "Z_min": 928, "Z_max": 1048, "RMS": 37}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238891", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ed:60:f6:60:be:e4", "rssi": -52, "battery": "", "temperature": 128.0703125, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -16, "Y_min": -56, "Y_max": 32, "Z_min": 944, "Z_max": 1052, "RMS": 39}
+{"timestamp": "2020-02-09 03:02-1581238892", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "d7:61:29:e3:42:db", "rssi": -53, "battery": "", "temperature": 0.0859375, "humidity": "", "voltage": 2508, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -16, "Y_min": -56, "Y_max": 32, "Z_min": 944, "Z_max": 1052, "RMS": 39}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238893", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2532, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -16, "Y_min": -56, "Y_max": 32, "Z_min": 944, "Z_max": 1052, "RMS": 39}
+{"timestamp": "2020-02-09 03:02-1581238893", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -44, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2490, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -168, "X_max": -16, "Y_min": -56, "Y_max": 32, "Z_min": 944, "Z_max": 1052, "RMS": 39}
+**************************
+**************************
+{"timestamp": "2020-02-09 03:02-1581238895", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -44, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2490, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -184, "X_max": -4, "Y_min": -60, "Y_max": 32, "Z_min": 916, "Z_max": 1056, "RMS": 40}
+{"timestamp": "2020-02-09 03:02-1581238895", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2532, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -184, "X_max": -4, "Y_min": -60, "Y_max": 32, "Z_min": 916, "Z_max": 1056, "RMS": 40}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238897", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -44, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2490, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -184, "X_max": -4, "Y_min": -60, "Y_max": 32, "Z_min": 916, "Z_max": 1056, "RMS": 40}
+**************************
+**************************
+{"timestamp": "2020-02-09 03:02-1581238899", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -41, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2484, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -164, "X_max": 4, "Y_min": -48, "Y_max": 36, "Z_min": 908, "Z_max": 1040, "RMS": 40}
+{"timestamp": "2020-02-09 03:02-1581238899", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -59, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2298, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -164, "X_max": 4, "Y_min": -48, "Y_max": 36, "Z_min": 908, "Z_max": 1040, "RMS": 40}
+**************************
+**************************
+{"timestamp": "2020-02-09 03:02-1581238901", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ed:60:f6:60:be:e4", "rssi": -52, "battery": "", "temperature": 64.0703125, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -12, "Y_min": -56, "Y_max": 36, "Z_min": 928, "Z_max": 1056, "RMS": 41}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238902", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2298, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -12, "Y_min": -56, "Y_max": 36, "Z_min": 928, "Z_max": 1056, "RMS": 41}
+{"timestamp": "2020-02-09 03:02-1581238902", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "d7:61:29:e3:42:db", "rssi": -53, "battery": "", "temperature": 0.0859375, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -12, "Y_min": -56, "Y_max": 36, "Z_min": 928, "Z_max": 1056, "RMS": 41}
+**************************
+**************************
+{"timestamp": "2020-02-09 03:02-1581238903", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ed:60:f6:60:be:e4", "rssi": -50, "battery": "", "temperature": 64.0703125, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -8, "Y_min": -44, "Y_max": 32, "Z_min": 932, "Z_max": 1048, "RMS": 38}
+{"timestamp": "2020-02-09 03:02-1581238904", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2298, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -8, "Y_min": -44, "Y_max": 32, "Z_min": 932, "Z_max": 1048, "RMS": 38}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238905", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "cb:c0:ec:dd:58:a6", "rssi": -44, "battery": "", "temperature": 64.06640625, "humidity": "", "voltage": 2484, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -8, "Y_min": -44, "Y_max": 32, "Z_min": 932, "Z_max": 1048, "RMS": 38}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238906", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ed:60:f6:60:be:e4", "rssi": -52, "battery": "", "temperature": 64.0703125, "humidity": "", "voltage": 2520, "uid_namespace": "8b9cc73c3ae747ef65bc", "X_min": -172, "X_max": -8, "Y_min": -44, "Y_max": 32, "Z_min": 932, "Z_max": 1048, "RMS": 38}
+**************************
+{"timestamp": "2020-02-09 03:02-1581238906", "edgemac": "00:22:4d:d7:fd:40", "latitude": "", "longitude": "", "mac_address": "ea:1c:5e:da:c1:88", "rssi": -50, "battery": "", "temperature": 128.0625, "humidity": "", "voltage": 2298, "uid_namespace": "8b9cc73c3ae747ef6
