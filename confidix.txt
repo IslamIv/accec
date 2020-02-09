@@ -1,0 +1,1 @@
+{"rms": 42, "zmax": 1056, "ymax": 32, "zmin": 920, "xmax": 0, "xmin": -164, "ymin": -60}

@@ -49,8 +49,9 @@ def acceess(packet):
         #print("Zmin>>", zmin," --- Zmax>>", zmax)
         #print("RMS>>", rms)
         #print("=================================")
-        print("**************************")
-        json.dump(acc, open("confidix.txt",'w'))
+        #print("**************************")
+        json.dump(acc, open("tx1.txt",'w'))
+        #print("HERE")
         return 0
     else:
         #print("xxxxxxxxxxxxxxxxxxxxxxxxxx")
